@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 消息提示 */
+.message {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 0 9px #666;
+  display: inline-block;
+  padding: 10px;
+}
+
+.message .success {
+  color: green;
+}

@@ -1,0 +1,109 @@
+body {
+  padding-bottom: 60px;
+  background-color: #eee;
+}
+
+.user {
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  gap: 10px;
+}
+
+.user .title {
+  color: red;
+  font-weight: bold;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+}
+
+.user p {
+  color: blue;
+}
+
+.user span {
+  color: green;
+}
+
+.user .btn {
+  background-color: #efefef;
+  padding: 8px 0;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.user .btn:hover {
+  background-color: #fff;
+  box-shadow: 0 0 5px #999;
+}
+
+.user .count {
+  color: blue;
+}
+
+.header {
+  height: 60px;
+  background-color: #569597;
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.main {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .room {
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  margin-top: 50px;
+  background-color: #2578b5;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 18px;
+  color: antiquewhite;
+  transition: all 0.3s;
+}
+
+.main .room:hover {
+  box-shadow: 0 0 9px #666;
+}
+
+.main .room > div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.main .room:nth-child(5n) {
+  margin-right: 0;
+}
+.main .room:nth-child(-n + 5) {
+  margin-top: 0px;
+}
+
+.footer {
+  height: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+}
